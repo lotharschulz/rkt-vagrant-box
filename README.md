@@ -1,6 +1,6 @@
 Vbox to test coreos/rocket
 --------------------------
-
+ 
 preconditions:
 
 - unix-like operating system
