@@ -3,6 +3,7 @@ Vbox to test coreos/rocket
 
 preconditions:
 
+- unix-like operating system
 - virtual box
 - vagrant
 - ansible
