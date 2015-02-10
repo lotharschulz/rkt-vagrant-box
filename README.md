@@ -1,5 +1,5 @@
-Vbox to test https://github.com/coreos/rocket
----------------------------------------------
+Vbox to test coreos/rocket
+--------------------------
 
 preconditions:
 
