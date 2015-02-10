@@ -15,6 +15,6 @@ usage:
 -  ./rkt help
 -  ./rkt list
 
-further rocket reading:
+further coreos rocket reading:
 
-- https://github.com/coreos/rocket/blob/master/README.md
+- [rocket](https://github.com/coreos/rocket/blob/master/README.md)
