@@ -1,5 +1,5 @@
-Vbox to test coreos/rocket
---------------------------
+Vbox to test [rocket](https://github.com/coreos/rocket) 
+-------------------
 
 preconditions:
 
@@ -18,4 +18,5 @@ usage:
 
 further coreos rocket reading:
 
-- [rocket](https://github.com/coreos/rocket/blob/master/README.md)
+- [rocket ob github](https://github.com/coreos/rocket/blob/master/README.md)
+- [rocket blog](https://coreos.com/blog/)
