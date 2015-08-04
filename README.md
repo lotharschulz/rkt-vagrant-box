@@ -12,7 +12,7 @@ usage:
 
 - vagrant up
 - vagrant ssh
--  cd rocket-v0.3.1
+-  cd rocket-v0.7.0
 -  ./rkt help
 -  ./rkt list
 
