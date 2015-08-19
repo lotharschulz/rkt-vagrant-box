@@ -5,6 +5,6 @@ sudo apt-get install unattended-upgrades
 sudo apt-get install language-pack-en
 #apt-get upgrade -y # enable this one if you want all packages up to date
 
-wget https://github.com/coreos/rkt/releases/download/v0.7.0/rkt-v0.7.0.tar.gz
-tar xzvf rkt-v0.7.0.tar.gz
-cd rkt-v0.7.0
+wget https://github.com/coreos/rkt/releases/download/v0.8.0/rkt-v0.8.0.tar.gz 
+tar xzvf rkt-v0.8.0.tar.gz 
+cd rkt-v0.8.0 
