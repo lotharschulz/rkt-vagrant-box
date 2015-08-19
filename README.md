@@ -3,10 +3,10 @@ Vbox to test [rocket](https://github.com/coreos/rocket)
 
 #### preconditions
 
-- [https://en.wikipedia.org/wiki/Unix-like](unix-like operating system)
-- [https://www.virtualbox.org/](virtual box)
-- [https://www.vagrantup.com/](vagrant)
-- [http://www.ansible.com/home](ansible)
+- [unix-like operating system](https://en.wikipedia.org/wiki/Unix-like)
+- [virtual box](https://www.virtualbox.org/)
+- [vagrant](https://www.vagrantup.com/)
+- [ansible](http://www.ansible.com/home)
 
 ### usage
 
