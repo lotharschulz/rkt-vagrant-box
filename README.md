@@ -1,14 +1,14 @@
-Vbox to test [rocket](https://github.com/coreos/rocket) 
+Vbox to test [rocket](https://github.com/coreos/rocket)
 -------------------
 
-preconditions:
+#### preconditions
 
 - unix-like operating system
-- virtual box
-- vagrant
-- ansible
+- [https://www.virtualbox.org/](virtual box)
+- [https://www.vagrantup.com/](vagrant)
+- [http://www.ansible.com/home](ansible)
 
-usage:
+### usage
 
 - vagrant up
 - vagrant ssh
@@ -16,7 +16,16 @@ usage:
 -  ./rkt help
 -  ./rkt list
 
-further coreos rocket reading:
+In case you have older vagrant box, you may use:
+
+- vagrant box list
+- vagrant box remove [boxname e.g. rkt-vbox-ansible]
+- vagrant destroy
+
+to clean up
+
+
+#### further coreos rocket reading
 
 - [rocket ob github](https://github.com/coreos/rocket/blob/master/README.md)
 - [rocket blog](https://coreos.com/blog/)
@@ -38,4 +47,3 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
