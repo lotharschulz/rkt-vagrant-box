@@ -3,7 +3,7 @@ Vbox to test [rocket](https://github.com/coreos/rocket)
 
 #### preconditions
 
-- [unix-like operating system](https://en.wikipedia.org/wiki/Unix-like)
+- [*nix-like operating system](https://en.wikipedia.org/wiki/Unix-like)
 - [virtual box](https://www.virtualbox.org/)
 - [vagrant](https://www.vagrantup.com/)
 - [ansible](http://www.ansible.com/home)
@@ -12,7 +12,7 @@ Vbox to test [rocket](https://github.com/coreos/rocket)
 
 - vagrant up
 - vagrant ssh
--  cd cd rkt-v0.10.0
+-  cd cd rkt-v0.12.0
 -  ./rkt help
 -  ./rkt list
 
