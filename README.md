@@ -28,7 +28,7 @@ to clean up
 #### further coreos rocket reading
 
 - [rocket ob github](https://github.com/coreos/rocket/blob/master/README.md)
-- [rocket blog](https://coreos.com/blog/)
+- [coreos blog](https://coreos.com/blog/)
 
 ===
 #### License
