@@ -12,7 +12,7 @@ Vbox to test [rocket](https://github.com/coreos/rocket)
 
 - vagrant up
 - vagrant ssh
--  cd rkt-v1.0.0
+-  cd rkt-v1.3.0
 -  ./rkt help
 -  ./rkt list
 
