@@ -23,6 +23,10 @@ In case you have older vagrant box, you may use:
 - vagrant box remove [boxname e.g. rkt-vbox-ansible]
 - vagrant destroy (clean up local vagrant boxes)
 
+### contributing
+
+1. Fork this repo, develop and test your code changes.
+1. Submit a pull request including a section in the readme.
 
 #### further coreos rocket reading
 
