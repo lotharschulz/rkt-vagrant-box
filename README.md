@@ -21,9 +21,7 @@ In case you have older vagrant box, you may use:
 
 - vagrant box list
 - vagrant box remove [boxname e.g. rkt-vbox-ansible]
-- vagrant destroy
-
-to clean up
+- vagrant destroy (clean up local vagrant boxes)
 
 
 #### further coreos rocket reading
