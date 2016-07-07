@@ -8,13 +8,14 @@ Vbox to test [rocket](https://github.com/coreos/rocket)
 - [vagrant](https://www.vagrantup.com/)
 - [ansible](http://www.ansible.com/home)
 
-### usage
+### sample usage
 
 - vagrant up
 - vagrant ssh
--  cd cd rkt-v0.12.0
+-  cd rkt-v1.9.1
 -  ./rkt help
--  ./rkt list
+-  sudo ./rkt list
+- ./rkt status
 
 In case you have older vagrant box, you may use:
 
