@@ -6,7 +6,6 @@ Vbox to test [rocket](https://github.com/coreos/rocket)
 - [*nix-like operating system](https://en.wikipedia.org/wiki/Unix-like)
 - [virtual box](https://www.virtualbox.org/)
 - [vagrant](https://www.vagrantup.com/)
-- [ansible](http://www.ansible.com/home)
 
 ### sample usage
 
