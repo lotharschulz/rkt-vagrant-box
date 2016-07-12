@@ -32,6 +32,11 @@ In case you have older vagrant box, you may use:
 - [rocket ob github](https://github.com/coreos/rocket/blob/master/README.md)
 - [coreos blog](https://coreos.com/blog/)
 
+##### rocket & kubernetes
+
+- [rktnetes brings rkt container engine to Kubernetes](http://blog.kubernetes.io/2016/07/rktnetes-brings-rkt-container-engine-to-Kubernetes.html)
+- [rktnetes-workshop](https://github.com/coreos/rktnetes-workshop)
+
 ===
 #### License
 
