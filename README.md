@@ -11,10 +11,10 @@ Vbox to test [rocket](https://github.com/coreos/rocket)
 
 - vagrant up
 - vagrant ssh
--  cd rkt-v1.9.1
+-  cd rkt-v1.14.0
 -  ./rkt help
 -  sudo ./rkt list
-- ./rkt status
+-  ./rkt status [UUID]
 
 In case you have older vagrant box, you may use:
 
