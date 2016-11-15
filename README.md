@@ -11,10 +11,15 @@ Vbox to test [rocket](https://github.com/coreos/rocket)
 
 - vagrant up
 - vagrant ssh
--  cd rkt-v1.14.0
+-  cd rkt-v1.19.0
 -  ./rkt help
 -  sudo ./rkt list
--  ./rkt status [UUID]
+-  sudo ./rkt status [UUID]
+-  \# run nginx docker image  
+  sudo ./rkt --insecure-options=image fetch docker://quay.io/zanui/nginx
+- \# run an aci image like quay.io/coreos/alpine-sh ([getting started with rkt](https://coreos.com/blog/getting-started-with-rkt-1.0.html))  
+  sudo ./rkt run --interactive quay.io/coreos/alpine-sh
+
 
 In case you have older vagrant box, you may use:
 
@@ -25,7 +30,7 @@ In case you have older vagrant box, you may use:
 ### contributing
 
 1. Fork this repo, develop and test your code changes.
-1. Submit a pull request including a section in the readme.
+1. Submit a pull request including a related section in the readme.
 
 #### further coreos rocket reading
 
