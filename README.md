@@ -19,6 +19,7 @@ Vbox to test [rocket](https://github.com/coreos/rocket)
   sudo ./rkt --insecure-options=image fetch docker://quay.io/zanui/nginx
 - \# run an aci image like quay.io/coreos/alpine-sh ([getting started with rkt](https://coreos.com/blog/getting-started-with-rkt-1.0.html))  
   sudo ./rkt run --interactive quay.io/coreos/alpine-sh
+ - cat /etc/*release # to verify the alpine version
 
 
 In case you have older vagrant box, you may use:
