@@ -1,4 +1,4 @@
-Vbox to test [rocket](https://github.com/coreos/rocket)
+A virtualbox to test [rocket](https://github.com/coreos/rocket) container engine locally.
 -------------------
 
 #### preconditions
