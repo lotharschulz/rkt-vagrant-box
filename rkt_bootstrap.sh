@@ -3,7 +3,7 @@
 #apt-get update
 #sudo apt-get install unattended-upgrades
 #sudo apt-get install language-pack-en
-#apt-get upgrade -y
+#sudo apt-get upgrade -y
 
 RKT_STR="rkt-"
 RKT_VERSION="v1.25.0"
