@@ -10,8 +10,6 @@ Vagrant.configure("2") do |config|
     ansible.vm.hostname = "rkt-vbox-ansible"
     ansible.vm.network "private_network", ip: "10.10.10.22"
 
-    #config.vm.provision "file", source: "export.sh", destination: "/home/ubuntu/export.sh"
-
     ansible.vm.provider :virtualbox do |vb, override|
       vb.memory = 2048
     end
