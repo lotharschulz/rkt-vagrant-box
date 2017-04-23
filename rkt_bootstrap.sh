@@ -1,10 +1,19 @@
 #!/usr/bin/env bash
 
-apt-get update
+#apt-get update
 #sudo apt-get install unattended-upgrades
 #sudo apt-get install language-pack-en
-#apt-get upgrade -y # enable this one if you want all packages up to date
+#apt-get upgrade -y
 
-wget https://github.com/coreos/rkt/releases/download/v1.19.0/rkt-v1.19.0.tar.gz
-tar xzvf rkt-v1.19.0.tar.gz
-cd rkt-v1.19.0 
+RKT_STR="rkt-"
+RKT_VERSION="v1.25.0"
+RKT_PACKAGE=".tar.gz"
+RKT_RELEASE_BASE_PATH="https://github.com/rkt/rkt/releases/download/"
+UBUNTU_HOME="/home/ubuntu/"
+BASHRC_FILE=".bashrc"
+
+curl -L -O "$RKT_RELEASE_BASE_PATH$RKT_VERSION/$RKT_STR$RKT_VERSION$RKT_PACKAGE"
+tar xzvf $RKT_STR$RKT_VERSION$RKT_PACKAGE
+rm -f $RKT_STR$RKT_VERSION$RKT_PACKAGE
+
+echo "PATH=$UBUNTU_HOME$RKT_STR$RKT_VERSION/:$PATH" >> $UBUNTU_HOME$BASHRC_FILE
