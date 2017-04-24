@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# http://redsymbol.net/articles/unofficial-bash-strict-mode/
+set -euo pipefail
+IFS=$'\n\t'
+
 #apt-get update
 #sudo apt-get install unattended-upgrades
 #sudo apt-get install language-pack-en
