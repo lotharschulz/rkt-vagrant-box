@@ -10,7 +10,7 @@ IFS=$'\n\t'
 #sudo apt-get upgrade -y
 
 RKT_STR="rkt-"
-RKT_VERSION="v1.25.0"
+RKT_VERSION="v1.27.0"
 RKT_PACKAGE=".tar.gz"
 RKT_RELEASE_BASE_PATH="https://github.com/rkt/rkt/releases/download/"
 UBUNTU_HOME="/home/ubuntu/"

@@ -1,32 +1,32 @@
-A virtualbox to test [rocket](https://github.com/coreos/rocket) container engine locally.
+    A virtualbox to test [rocket](https://github.com/coreos/rocket) container engine locally.
 -------------------
 
 #### preconditions
 
 - [*nix-like operating system](https://en.wikipedia.org/wiki/Unix-like)
-- [virtual box](https://www.virtualbox.org/)
 - [vagrant](https://www.vagrantup.com/)
+- [virtual box as vagrant provider (can be another one)](https://www.virtualbox.org/)
 
 ### sample usage
 
 - ```vagrant up```
 - ```vagrant ssh```
   - `rkt help`
-  - `sudo ~/rkt-v1.25.0/rkt list`
+  - `sudo ~/rkt-v1.27.0/rkt list`
   - fetch nginx docker image  
-    ```sudo ~/rkt-v1.25.0/rkt --insecure-options=image fetch docker://quay.io/zanui/nginx```
+    ```sudo ~/rkt-v1.27.0/rkt --insecure-options=image fetch docker://quay.io/zanui/nginx```
   - run an aci image like quay.io/coreos/alpine-sh (see also [getting started with rkt](https://coreos.com/blog/getting-started-with-rkt-1.0.html) tutorial)  
-    ```sudo ~/rkt-v1.25.0/rkt run --interactive quay.io/coreos/alpine-sh```
+    ```sudo ~/rkt-v1.27.0/rkt run --interactive quay.io/coreos/alpine-sh```
     - verify alpine version
       ```cat /etc/*release```
     - CRTL D to leave the container
-  - `sudo ~/rkt-v1.25.0/rkt list`
+  - `sudo ~/rkt-v1.27.0/rkt list`
     - sample output:
       ```
       UUID		APP		IMAGE NAME			STATE	CREATED		STARTED		NETWORKS
       5001a5d9	alpine-sh	quay.io/coreos/alpine-sh:latest	exited	1 minute ago	1 minute ago
       ```
-  - `sudo ~/rkt-v1.25.0/rkt status [UUID]` e.g. `sudo ~/rkt-v1.25.0/rkt status 500`
+  - `sudo ~/rkt-v1.27.0/rkt status [UUID]` e.g. `sudo ~/rkt-v1.27.0/rkt status 500`
     - sample output:
     ```
     state=exited
